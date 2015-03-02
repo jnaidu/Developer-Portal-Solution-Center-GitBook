@@ -1,0 +1,2 @@
+# Solution Center Company Administrator Role
+Solution Center Company Administrators represent the top-level administrators at a partner or customer that will be using the Solution Center.  They are primarily focused on creating solutions, and inviting other users to join the company.  This role is automatically tied to the company associated with the user.  Company Administrators can access features of all subsequent roles, but only on solutions and instances that are owned by their company.

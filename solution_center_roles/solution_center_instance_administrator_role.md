@@ -1,0 +1,2 @@
+# Solution Center Instance Administrator Role
+Solution Center Instance Administrators are those individuals within a company that have been given ownership over a solution instance.  They are primarily focused on tasks such as assigning developers and deploying releases to an instance.  This role must be granted to a user for each instance on which the need ownership.  Instance Administrators can access features of all subsequent roles, but only on instances they own.
