@@ -4,6 +4,9 @@ Solution Center Administrators are the highest level administrators in the Solut
 ## Retrieve a list of user accounts that have been granted the Solution Center Admin role
 
 ### Steps:
-1.
+1. On the left panel, click **Security**. A list of companies will be displayed.
+2. In order to retrieve a list of user accounts, you should select a company first by clicking on a company name.
+3. A list of user accounts that have been granted the Solution Center Admin role will be displayed.
 
+## Grant the Solution Center Admin role to a user account
 
