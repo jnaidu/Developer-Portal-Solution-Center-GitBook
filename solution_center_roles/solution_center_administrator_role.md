@@ -23,10 +23,9 @@ Solution Center Administrators are the highest level administrators in the Solut
 4. Click **Remove Role** next to the Solution Center Admin role to revoke the role from the user account.
 5. Click **Yes** , and then **OK** on the pop-up window.
 
-## Retrieve a list of solutions that have access to the solution center
+## Retrieve a list of companies that have access to the solution center
 ### Notes
 * You'll be able to see the solutions for all the companies who have access to the solution center.
-
 
 ### Steps
 1. On the left panel, click **Solutions Center**. A list of solutions for all the companies who have access to the solution center will be displayed.

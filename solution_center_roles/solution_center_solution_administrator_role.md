@@ -9,11 +9,7 @@ Solution Center Solution Administrators are those individuals within a company t
 3. Click **Edit Solution** to update a solution.
 
 
-## Retrieve a list of user accounts that have been granted the Solution Center Solution Admin role for a solution
-### Steps:
-1. On the left panel, click **Solutions Center**. A list of all the solutions that have access to the solution center will be displayed.
-2. Select your solution by clicking on the solution name.
-3. Click the **Users** tab. A list of users who have access to your solution will be displayed. Filter the **Role** column to retrieve a list of user accounts that have been granted the Solution Center Solution Admin role.
+
 
 ## Grant the Solution Center Solution Admin role to a user account for a solution
 ### Steps:

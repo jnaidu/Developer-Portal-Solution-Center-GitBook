@@ -12,23 +12,17 @@ Solution Center Instance Administrators are those individuals within a company t
 7. Attach a YAML file.
 8. Click the **Add Release** button, and then **OK** to add the release to your solution.
 
-## Retrieve a list of releases for a solution
-### Steps:
-1. On the left panel, click **Solutions Center**. A list of all the solutions that have access to the solution center will be displayed.
-2. Select your solution by clicking on the solution name.
-3. Click the **Release** tab. The history of releases will be displayed.
-
-## Retrieve a release
-### Steps:
-1. On the left panel, click **Solutions Center**. A list of all the solutions that have access to the solution center will be displayed.
-2. Select your solution by clicking on the solution name.
-3. Click the **Release** tab. The history of releases will be displayed.
-4. To retrieve a release, select a release by clicking on the release name.
 
 ## Update a release
 
-## Delete a release
 
+## Deactivate a release
+### Steps:
+1. On the left panel, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
+2. Select your solution by clicking on the solution name.
+3. Click the **Instance** tab.
+4. Select the instance that you have access to by clicking on the instance name. Instance details will be displayed.
+5. Click the **Deployments** tab. You'll be able to update the release name and the
 ## Retrieve manifest file for a release
 
 ## update an instance

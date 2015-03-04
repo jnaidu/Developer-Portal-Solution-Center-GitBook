@@ -21,13 +21,6 @@ Solution Center Company Administrators represent the top-level administrators at
 11. Once you click **View Solution**, you'll be able to view the solution specific details.
 12. To add an instance to a solution, refer to **Solution Center Instance Administrator** role.
 
-## Retrieve a list of solutions that have access to the solution center
-## Notes
-* You'll only be able to see all the solutions for your company.
-
-### Steps
-1. On the left panel, click **Solutions Center**. A list of all the solutions who have access to the solution center will be displayed.
-
 ## Delete a solution
 ### Note
 If you delete a solution, the instances connected to a solution will no longer be available.
@@ -41,10 +34,7 @@ If you delete a solution, the instances connected to a solution will no longer b
 7. Click **Yes** , and then **OK** on the pop-up window to delete the solution.
 
 
-## Retrieve a Solution
-### Steps
-1. On the left panel, click **Solutions Center**. A list of all the solutions who have access to the solution center will be displayed.
-2. Click on the solution name to retrieve the solution specific details.
+
 
 ##  Retrieve a list of user accounts that have been granted the Solution Center Company Admin role for a company
 ### Steps:
