@@ -98,3 +98,8 @@ I want to retrieve an instance
 4. Select an instance by clicking on the instance name to retrieve an instance.
 5. Click the **Nodes** tab.
 6. You can view the status of all the portal runtime nodes under the **Active Nodes** section.
+
+## Search for solution center users within a company
+### Steps:
+1. On the left panel, click **Security**. A list of all users for your company will be displayed.
+2. Use the **User Lookup** field to search a user by first name, last name, or email address.

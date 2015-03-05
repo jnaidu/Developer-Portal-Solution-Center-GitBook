@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Glossary | Developer Portal Solution Center</title>
+        <title>Solution Center Roles | Developer Portal Solution Center</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -12,17 +12,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
         
     
     
     
+    <link rel="next" href="../solution_center_roles/solution_center_administrator_role.html" />
     
     
-
-    
-    
+    <link rel="prev" href="../index.html" />
     
 
         
@@ -30,11 +29,11 @@
     <body>
         
         
-<link rel="stylesheet" href="gitbook/style.css">
+<link rel="stylesheet" href="../gitbook/style.css">
 
 
         
-    <div class="book"  data-level="" data-basepath="." data-revision="1425589551655">
+    <div class="book"  data-level="1" data-basepath=".." data-revision="1425589551655">
     
 
 <div class="book-summary">
@@ -55,7 +54,7 @@
         <li class="chapter " data-level="0" data-path="index.html">
             
                 
-                    <a href="./index.html">
+                    <a href="../index.html">
                         <i class="fa fa-check"></i>
                         
                          Overview
@@ -66,10 +65,10 @@
         </li>
     
         
-        <li class="chapter " data-level="1" data-path="solution_center_roles/README.html">
+        <li class="chapter active" data-level="1" data-path="solution_center_roles/README.html">
             
                 
-                    <a href="./solution_center_roles/README.html">
+                    <a href="../solution_center_roles/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.</b>
@@ -86,7 +85,7 @@
         <li class="chapter " data-level="1.1" data-path="solution_center_roles/solution_center_administrator_role.html">
             
                 
-                    <a href="./solution_center_roles/solution_center_administrator_role.html">
+                    <a href="../solution_center_roles/solution_center_administrator_role.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.1.</b>
@@ -102,7 +101,7 @@
         <li class="chapter " data-level="1.2" data-path="solution_center_roles/solution_center_company_administrator_role.html">
             
                 
-                    <a href="./solution_center_roles/solution_center_company_administrator_role.html">
+                    <a href="../solution_center_roles/solution_center_company_administrator_role.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.2.</b>
@@ -118,7 +117,7 @@
         <li class="chapter " data-level="1.3" data-path="solution_center_roles/solution_center_solution_administrator_role.html">
             
                 
-                    <a href="./solution_center_roles/solution_center_solution_administrator_role.html">
+                    <a href="../solution_center_roles/solution_center_solution_administrator_role.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.3.</b>
@@ -134,7 +133,7 @@
         <li class="chapter " data-level="1.4" data-path="solution_center_roles/solution_center_instance_administrator_role.html">
             
                 
-                    <a href="./solution_center_roles/solution_center_instance_administrator_role.html">
+                    <a href="../solution_center_roles/solution_center_instance_administrator_role.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.4.</b>
@@ -150,7 +149,7 @@
         <li class="chapter " data-level="1.5" data-path="solution_center_roles/solution_center_instance_developer_role.html">
             
                 
-                    <a href="./solution_center_roles/solution_center_instance_developer_role.html">
+                    <a href="../solution_center_roles/solution_center_instance_developer_role.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.5.</b>
@@ -166,7 +165,7 @@
         <li class="chapter " data-level="1.6" data-path="solution_center_roles/solution_center_user_role.html">
             
                 
-                    <a href="./solution_center_roles/solution_center_user_role.html">
+                    <a href="../solution_center_roles/solution_center_user_role.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.6.</b>
@@ -264,33 +263,53 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="./" >Developer Portal Solution Center</a>
+        <a href="../" >Developer Portal Solution Center</a>
     </h1>
 </div>
 
             <div class="page-wrapper" tabindex="-1">
                 <div class="page-inner">
                 
+                
+                    <section class="normal" id="section-gitbook_10638">
+                    
+                        <h1 id="solution-center-roles">Solution Center Roles</h1>
+<p>The Developer Portal Solution Center has its own set of associated roles, and when a user is granted a role, they gain access to specific features for that application. Each role will be described in detail below, but there are a few general traits shared across roles that are worth noting:</p>
+<ul>
+<li>Some roles implicitly have access to the features of lower-level roles beneath them
+Example- The Solution Center Administrator has access to every solution and instance on the platform, even if they have not explicitly been granted the Solution Administrator or Instance Administrator roles.</li>
+<li>Some roles must be granted against the entity which they are intended to protect
+Example- The Solution Center Instance Administrator role must be granted against a specific instance, because we have to limit the administrative rights of the user to just that instance.</li>
+<li>Multiple roles can be assigned to a single user
+Example- Roles are cumulative; a single user can be a CCA Security Administrator, a Solution Center Company Administrator, a Solution Center User, and a Messaging Tenant Admin all at the same time.</li>
+</ul>
 
-
+                    
+                    </section>
+                
+                
                 </div>
             </div>
         </div>
 
         
+        <a href="../index.html" class="navigation navigation-prev " aria-label="Previous page: Overview"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../solution_center_roles/solution_center_administrator_role.html" class="navigation navigation-next " aria-label="Next page: Solution Center Administrator Role"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
 
         
-<script src="gitbook/app.js"></script>
+<script src="../gitbook/app.js"></script>
 
     
     <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
 
     
-    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
     
 
 <script>
