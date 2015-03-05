@@ -34,8 +34,6 @@ If you delete a solution, the instances connected to a solution will no longer b
 7. Click **Yes** , and then **OK** on the pop-up window to delete the solution.
 
 
-
-
 ##  Retrieve a list of user accounts that have been granted the Solution Center Company Admin role for a company
 ### Steps:
 1. On the left panel, click **Security**. A list of user accounts that have been granted the Solution Center Admin role will be displayed.

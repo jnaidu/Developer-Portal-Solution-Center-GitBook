@@ -27,8 +27,9 @@ Solution Center Solution Administrators are those individuals within a company t
 3. Click the **Instances** tab. A list of all the instances for your solution will be displayed.
 4. Click **Add Instance**.
 5. Provide a friendly instance name in the field **Instance Name**.
-6. Pick a configuration type from the available configuration options.
+6. Pick an instance type from the available configuration options. You have the ability to create multiple development and pre-production instances, however, you can only create one production instance.
 7. Provide an instance alias name in the field **Alias**.
+8. You can either create a new realm or choose from existing realms. If you choose an existing realm, the instance portal, identity APIs, ID Provision, and ID Broker will be configured to run against your selected realm.
 8. Click the **Add Instance** button.
 9. The instance creation does the following background work to set up the instance:
     1. Create Realm
@@ -37,3 +38,13 @@ Solution Center Solution Administrators are those individuals within a company t
 11. Click the **View Instance Settings* button to view instance details.
 
 ## Delete an instance
+1. On the left panel, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
+2. Select your solution by clicking on the solution name.
+3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
+4. Select an instance by clicking on the instance name to retrieve an instance.
+5. Click **Edit Instance**. You'll be able to edit the name and the description fields.
+6. Click **Delete Instance**.
+7. Enter a reason for deleting the instance, and click the **Delete Instance** button and then **OK** to complete the step.
+
+
+
