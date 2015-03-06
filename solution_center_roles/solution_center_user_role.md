@@ -7,7 +7,7 @@ A Solution Center User is the most basic role in the Solution Center.  It should
 
 
 
-I want to retrieve an instance
+## Retrieve an instance
 
 ## Retrieve a list of solutions that have access to the solution center
 ## Notes
