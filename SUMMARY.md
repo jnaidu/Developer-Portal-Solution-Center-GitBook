@@ -2,6 +2,7 @@
 
 * [Overview](README.md)
 * [Solution Center Roles](solution_center_roles/README.md)
+   * [Solution Center Role Map](solution_center_roles/solution_center_role_map.md)
    * [Solution Center Administrator Role](solution_center_roles/solution_center_administrator_role.md)
    * [Solution Center Company Administrator Role](solution_center_roles/solution_center_company_administrator_role.md)
    * [Solution Center Solution Administrator Role](solution_center_roles/solution_center_solution_administrator_role.md)
