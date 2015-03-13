@@ -1,6 +1,6 @@
 # Summary
 
-* [Overview](README.md)
+* [Developer Portal Overview](README.md)
 * [Solution Center Roles](solution_center_roles/README.md)
    * [Solution Center Role Map](solution_center_roles/solution_center_role_map.md)
    * [Solution Center Administrator Role](solution_center_roles/solution_center_administrator_role.md)
